@@ -1,0 +1,10 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Global envs
+.env
+*.env
+
+# Python virtualenvs or Node lock files outside folders
+venv/
