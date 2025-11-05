@@ -5,6 +5,7 @@ import Product from './pages/Products'
 import Purchase from './pages/Purchase'
 import Sales from './pages/Sales'
 import AddProducts from './pages/AddProducts'
+import Repair from './pages/Repair'
 import AppLayout from './layouts/AppLayout'
 import SignIn from './pages/SignIn'
 import ProtectedRoute from './ProtectedRoute/ProtectedRoute'
@@ -21,6 +22,7 @@ function App() {
         <Route path='/purchases' element={<Purchase />} />
         <Route path='/sales' element={<Sales />} />
         <Route path='/addproducts' element={<AddProducts />} />
+        <Route path='/repair' element={<Repair />} />
       </Route>
     </Routes>
   )

@@ -4,8 +4,13 @@ import { LayoutDashboard, Package, ShoppingCart, Receipt, BarChart } from "lucid
 const Sidebar = () => {
     return (
         <aside className="w-64 bg-gray-900 text-gray-100 h-screen fixed left-0 top-0 flex flex-col">
-            <div className="px-6 py-4 text-2xl font-bold border-b border-gray-800">
-                ⚡ P.E.M Inventory
+            <div className="flex flex-col font-bold px-6 py-4 text-3xl">
+                <div className="flex justify-center">
+                    P.E.M
+                </div>
+                <div className="flex justify-center border-b border-gray-800">
+                    Inventory
+                </div>
             </div>
 
             <nav className="flex-1 p-4 space-y-2">
@@ -44,6 +49,13 @@ const Sidebar = () => {
                         }`
                     }
                 >Add Product</NavLink >
+                <NavLink
+                    to="/repair"
+                    className={({ isActive }) =>
+                        `flex items-center gap-3 px-4 py-2 rounded-lg transition ${isActive ? "bg-blue-600" : "hover:bg-gray-800"
+                        }`
+                    }
+                >Repair</NavLink >
             </nav>
 
         </aside>

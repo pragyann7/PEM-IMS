@@ -9,8 +9,10 @@ db.sqlite3
 *.sqlite3
 
 # Django migrations
-*/migrations/*.py
+*/migrations/*.py[cod]
 !*/migrations/__init__.py
+
+*/migrations/__pycache__/
 
 # Environments
 .env
