@@ -1,16 +1,21 @@
-# Ignore all migration files except __init__.py
-*/migrations/*.py[cod]
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django migrations
+*/migrations/*.py
 !*/migrations/__init__.py
 
-# Ignore __pycache__ inside migrations
-*/migrations/__pycache__/
+# Environments
+.env
+venv/
+.env.local
 
-# Ignore compiled Python files
-*.pyc
-__pycache__/
+# Logs
+*.log
 
-media
-
-db.sqlite3
-*.db
-*.sqlite3
+# IDE
+.vscode/
+.idea/
