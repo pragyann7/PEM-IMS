@@ -1,0 +1,16 @@
+# Ignore all migration files except __init__.py
+*/migrations/*.py[cod]
+!*/migrations/__init__.py
+
+# Ignore __pycache__ inside migrations
+*/migrations/__pycache__/
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+media
+
+db.sqlite3
+*.db
+*.sqlite3
