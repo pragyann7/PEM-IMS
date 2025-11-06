@@ -24,7 +24,7 @@ const Navbar = () => {
                     </NavLink>
                     <Bell size={22} className='ml-3 cursor-pointer' />
                     <Settings size={22} className='ml-2 cursor-pointer' />
-                    <BadgeQuestionMark size={20} className='ml-2 cursor-pointer' />
+                    {/* <BadgeQuestionMark size={20} className='ml-2 cursor-pointer' /> */}
                     <CircleUser className='ml-2 mr-1 cursor-pointer' />
                     <label>Admin</label>
                     <label
