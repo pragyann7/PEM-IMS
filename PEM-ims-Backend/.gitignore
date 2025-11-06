@@ -8,9 +8,10 @@ db.sqlite3
 *.db
 *.sqlite3
 
-# Django migrations
-*/migrations/*.py[cod]
-!*/migrations/__init__.py
+# Ignore Django migration files
+**/migrations/
+!**/migrations/__init__.py
+
 
 */migrations/__pycache__/
 
