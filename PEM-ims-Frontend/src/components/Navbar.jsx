@@ -12,11 +12,11 @@ const Navbar = () => {
         <div className='fixed top-0 left-64 flex items-center h-13 bg-gray-900 text-white w-[calc(100%-16rem)] z-50'>
             <div className='flex items-center justify-between px-5 w-full'>
                 <div>
-                    <input
+                    {/* <input
                         type="search"
                         className='bg-white rounded-2xl w-67 text-[12px] text-black pl-3 p-1'
                         placeholder='Search here'
-                    />
+                    /> */}
                 </div>
                 <div className='flex items-center'>
                     <NavLink to="/addproducts">
