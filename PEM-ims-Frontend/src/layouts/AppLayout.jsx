@@ -1,4 +1,4 @@
-import SideBarMenu from "../components/sideBarMenu";
+import SideBarMenu from "../components/SideBarMenu";
 import Navbar from "../components/Navbar";
 import { Outlet } from "react-router-dom";
 
